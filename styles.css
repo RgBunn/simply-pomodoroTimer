@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.app-container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#time-left {
+  margin: 3rem 0;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.btn:hover {
+  transform: scale(0.98);
+  opacity: 0.7;
+}
+#btn-start {
+  background-color: green;
+}
+
+#btn-stop {
+  background-color: red;
+}
+#btn-reset {
+  background-color: grey;
+}
